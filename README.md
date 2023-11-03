@@ -1,6 +1,6 @@
 # Ventilator Pressure Prediction
 
-![Mechanical Ventilator](./assets/mechanical_ventilator.png)
+![Mechanical Ventilator](./mechanical_ventilator.png)
 - **General Information and Goal:**
   Mechanical ventilators play a critical role in supporting patients with respiratory difficulties, such as those suffering from COVID-19 or other 
   lung-related conditions.The primary objective is to make accurate predictions for the air pressure delivered by mechanical ventilators to 
