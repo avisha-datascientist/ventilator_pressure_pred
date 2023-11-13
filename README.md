@@ -1,15 +1,13 @@
-# Ventilator Pressure Prediction
+# GI Tract Image Segmentation
 
-![Mechanical Ventilator](./mechanical_ventilator.png)
+![Scans]()
 - **General Information and Goal:**
-  Mechanical ventilators play a critical role in supporting patients with respiratory difficulties, such as those suffering from COVID-19 or other 
-  lung-related conditions.The primary objective is to make accurate predictions for the air pressure delivered by mechanical ventilators to 
-  patients leveraging historical data. Precise air pressure regulation is vital for individuals in need of ventilator support, and improved 
-  predictions can potentially enhance treatment and save lives.
-- **Dataset:** [Ventilator Pressure Dataset](https://www.kaggle.com/competitions/ventilator-pressure-prediction/overview)
-- **Type of Task:** Here the values of different time series is used to predict the values of other series. So this is a regression task.
-- **The Notebook:** In the notebook, I begin with data loading and data overview followed by some analysis and feature engineering. The final 
-  dataset is then used in a simple LSTM model to predict pressure with the metric being Mean Absolute Error.
+  What are MRI scans?
+Magnetic resonance imaging (MRI) is a type of scan that uses strong magnetic fields and radio waves to produce detailed images of the inside of the body. An MRI scanner is a large tube that contains powerful magnets. You lie inside the tube during the scan.
+The class widthin the train.csv file has 3 distinct values: large bowel, small bowel, stomach. These are all part of the digestive system. The bowels (small and large intestine) are responsible for breaking down food and absorbing the nutrients.
+- **Dataset:** [GI Tract Segmentation Dataset](https://www.kaggle.com/competitions/uw-madison-gi-tract-image-segmentation/data)
+- **Type of Task:** The training annotations presented as RLE-encoded masks in 16-bit grayscale PNG format. Cases in the competition consist of multiple sets of scan slices identified by the day of the scan, with some cases split by time (train/test) and others by the entirety of the case. The objective is to generalize to both partially and wholly unseen cases, with the test set comprising roughly 50 entirely unseen cases, each varying in the number of days and slices, similar to the training set.
+- **The Notebook:** In the notebook, I begin with data loading, conversion, visualization and analysis of the 16 bit masks.
 
 
 
