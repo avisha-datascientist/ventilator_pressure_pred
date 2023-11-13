@@ -1,6 +1,6 @@
 # GI Tract Image Segmentation
 
-![Scans]()
+![Scans]('./scans.png')
 - **General Information and Goal:**
   What are MRI scans?
 Magnetic resonance imaging (MRI) is a type of scan that uses strong magnetic fields and radio waves to produce detailed images of the inside of the body. An MRI scanner is a large tube that contains powerful magnets. You lie inside the tube during the scan.
