@@ -1,4 +1,4 @@
-# GI Tract Image Segmentation
+# GI Tract Image Segmentation (Not the repo for ventilator pressure prediction)
 
 ![Scans](./scans.png)
 - **General Information and Goal:**
