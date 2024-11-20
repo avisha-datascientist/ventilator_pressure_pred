@@ -1,5 +1,4 @@
-# GI Tract Image Segmentation (Not the repo for ventilator pressure prediction)
-# For [ventilator pressure prediction](https://github.com/avisha-datascientist/prediction_pressure_TS)
+# GI Tract Image Segmentation
 ![Scans](./scans.png)
 - **General Information and Goal:**
   What are MRI scans?
